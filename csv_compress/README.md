@@ -5,25 +5,25 @@ Search for CSV files larger than 100MB in the specified directory(default curren
 # Usage
 
 ```
-perl csvcompress.pl
+perl csv_compress.pl
 ```
 
 This will compress all CSV files larger than 100MB in the current directory.
 
 ```
-perl csvcompress.pl -r
+perl csv_compress.pl -r
 ```
 
 This will delete all CSV files larger than 100MB in the current directory.
 
 ```
-perl compress.pl -d /mnt/data -c
+perl csv_compress.pl -d /mnt/data -c
 ```
 
 This will compress all CSV files larger than 100MB in the /mnt/data directory.
 
 ```
-perl compress.pl -d /mnt/data -r
+perl csv_compress.pl -d /mnt/data -r
 ```
 
 This will delete all CSV files larger than 100MB in the /mnt/data directory.

@@ -9,7 +9,7 @@ By default the ddl is for Greenplum database. All field in the table will be cha
 Use the column names from the CSV as the column names for the database table.
 
 ```
-perl genddl.pl mtcars.csv original
+perl gen_ddl.pl mtcars.csv original
 ```
 
 This will generate ddl: 
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS r.mtcars (mpg VARCHAR, cyl VARCHAR, disp VARCHAR, hp 
 Automatically generate column names for the database table, with the original CSV column names used as field comments. This is suitable for cases where the CSV contains special characters.
 
 ```
-perl genddl.pl mtcars.csv comment
+perl gen_ddl.pl mtcars.csv comment
 ```
 
 This will generate ddl:

@@ -27,17 +27,17 @@ The minimum and maximum UID can also be specified by --minuid(-i) and --maxuid(-
 Create users using directory names in /home in batches:
 
 ```
-perl usercreator.pl
+perl bind_home.pl
 ```
 
 Delete all common users(with UID >= 1000):
 
 ```
-perl usercreator.pl -d
+perl bind_home.pl -d
 ```
 
 Delete all common users(with UID >= 1001 and UID <= 1003, except user2 and user3)
 
 ```
-perl usercreator.pl -d -i 1001 -a 1003 -e user2 -e user3
+perl bind_home.pl -d -i 1001 -a 1003 -e user2 -e user3
 ```

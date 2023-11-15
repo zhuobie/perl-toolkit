@@ -9,3 +9,9 @@ This Perl script is used to compare table structures between two different schem
 2. Run the script. 
 
 3. Open the XLSX file in Excel.
+
+# Example
+
+```
+perl pg_compare.pl
+```

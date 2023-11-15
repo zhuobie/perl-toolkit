@@ -151,11 +151,11 @@ sub delete_users() {
     
 -head1 Examples
     
-    perl usercreator.pl
+    perl bind_home.pl
     
-    perl usercreator.pl -d
+    perl bind_home.pl -d
     
-    perl usercreator.pl -d -i 1001 -a 1003 -e user2 -e user3
+    perl bind_home.pl -d -i 1001 -a 1003 -e user2 -e user3
     
 =cut
 
