@@ -17,3 +17,5 @@ perl search_text.pl '<DIR>' '<REGEXP>'
 ```
 perl search_text.pl 'R_PKG' 'MIT\s\+'
 ```
+
+When complete, check the file `search_result.log` for details.
